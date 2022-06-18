@@ -1,0 +1,193 @@
+
+:root {
+    font-family: 'Mukta', sans-serif;
+    --primary-color: #0B3160;
+    --secondary-color: #96C4C1;
+    --secondary-color-dark: #6BACA6;
+    --info-color: #2079E6;
+    --danger-color: #FF9D02;
+    --danger-color-light: #FFC102;
+}
+
+.logo {
+    font-weight: 800;
+    color: #3a3939;
+}
+
+.logo span {
+    color: var(--primary-color);
+}
+
+.navbar_customize{
+    background-color: var(--secondary-color);
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    margin-left: 25px;
+    font-size: 1.1rem;
+}
+
+.dropdown_menu{
+    background-color: var(--secondary-color);
+}
+
+.dropdown-item{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.dropdown-item:hover {
+    background-color: var(--danger-color-light);
+    color: var(--info-color);
+    font-weight: 600;
+}
+
+.btn_theme_primary {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn_theme_primary:hover {
+    background-color: var(--danger-color-light);
+    border: 2px solid var(--danger-color);
+}
+
+.btn_theme_primary:active {
+    background-color: var(--danger-color-light);
+    border: 2px solid var(--danger-color);
+}
+
+.btn-outline-success:focus{
+    background-color: var(--danger-color-light) !important;
+    border: 2px solid var(--danger-color) !important;
+    box-shadow: 0 0 0 0.25rem rgb(148	126	195 / 25%);
+    color: #fff;
+}
+
+.form-control {
+    border: 1px solid var(--primary-color);
+}
+
+.form-control:focus {
+    border: 2px solid var(--danger-color);
+    box-shadow: 0 0 0 0.25rem rgb(148	126	195 / 25%);
+}
+
+.figure {
+    left: 70% !important;
+    top: 90px;
+}
+
+.figure_svg {
+    width: 550px;
+    height: 538px;
+}
+
+.fill_svg_background {
+    z-index: -1;
+    fill: var(--info-color);
+}
+
+.student_img {
+    z-index: 2;
+    bottom: 120px;
+    left: 10%;
+}
+
+.fill-warning {
+    fill: var(--secondary-color);
+}
+
+.slogan_title{
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.35rem;
+}
+
+.slogan_span{
+    z-index: -1;
+}
+
+.main_container {
+    background-image: url('images/bg_img.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: -10;
+    height: 750px;
+}
+
+@media only screen and (max-width: 991px) {
+    .figure {
+        left: 50% !important;
+        top: 285px;
+    }
+
+    .main_container {
+        background-image: none;
+    }
+
+    .container_curses{
+        margin-top: 8rem;
+    }
+  }
+
+.bg_boxes_1 {
+    background-color: rgba(107, 172, 166, 0.25) ;
+    color: var(--secondary-color-dark);
+}
+
+.bg_boxes_2 {
+    background-color: rgba(32, 121, 230, 0.25);
+    color: var(--primary-color);
+}
+
+.bg_boxes_3 {
+    background-color: rgba(255, 193, 2, 0.25);
+    color: var(--danger-color);
+}
+
+.bg_boxes_4 {
+    background-color: rgba(11, 49, 96, 0.25);
+    color: var(--info-color);
+}
+.card {
+    width: 20rem;
+}
+.card-body {
+    height: 10rem;
+}
+
+.beginner_bar {
+    background-color: var(--secondary-color);
+}
+
+.beginner_text {
+    color: var(--secondary-color)
+}
+
+.adv_beginner_bar {
+    background-color: var(--secondary-color-dark);
+}
+
+.adv_beginner_text {
+    color: var(--secondary-color-dark)
+}
+
+.medium_bar {
+    background-color: var(--danger-color-light);
+}
+
+.medium_text {
+    color: var(--danger-color-light)
+}
+
+.advanced_bar {
+    background-color: var(--info-color);
+}
+
+.advanced_text {
+    color: var(--info-color)
+}
